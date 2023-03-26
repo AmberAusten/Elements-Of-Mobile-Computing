@@ -42,6 +42,7 @@ Login/Register
 
 UI Design
 - App flow, fonts, colors, icons, figma.
+- Amber (100%)
 - Irene (33.3%)
 - Jainali (33.3%)
 - Matthew (33.3%)
