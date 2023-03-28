@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E851D8F28FE367200530C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851D8E28FE367200530C0B /* AppDelegate.swift */; };
+		3E851D9128FE367200530C0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851D9028FE367200530C0B /* SceneDelegate.swift */; };
+		3E851D9328FE367200530C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851D9228FE367200530C0B /* ViewController.swift */; };
+		3E851D9628FE367200530C0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E851D9428FE367200530C0B /* Main.storyboard */; };
+		3E851D9928FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E851D9728FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodeld */; };
+		3E851D9B28FE367300530C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E851D9A28FE367300530C0B /* Assets.xcassets */; };
+		3E851D9E28FE367300530C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E851D9C28FE367300530C0B /* LaunchScreen.storyboard */; };
+		3E851DA628FE371D00530C0B /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851DA528FE371D00530C0B /* Pizza.swift */; };
+		3E851DA828FE373F00530C0B /* PizzaError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851DA728FE373F00530C0B /* PizzaError.swift */; };
+		3E851DAA28FE375B00530C0B /* PizzaOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851DA928FE375B00530C0B /* PizzaOptions.swift */; };
+		3E851DAC28FE377F00530C0B /* PizzaValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851DAB28FE377F00530C0B /* PizzaValidation.swift */; };
+		3E851DB028FE3A3800530C0B /* PizzaOrderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E851DAF28FE3A3800530C0B /* PizzaOrderScreen.swift */; };
+		3EBE7C6F29073F0500EA7100 /* HW6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE7C6D29073F0500EA7100 /* HW6.xcdatamodeld */; };
+		3EBE7C7229073F3C00EA7100 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE7C7129073F3C00EA7100 /* CoreDataStack.swift */; };
+		3EBE7C7D2907476700EA7100 /* PizzaModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE7C7B2907476700EA7100 /* PizzaModel+CoreDataClass.swift */; };
+		3EBE7C7E2907476700EA7100 /* PizzaModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE7C7C2907476700EA7100 /* PizzaModel+CoreDataProperties.swift */; };
+		3EBE7C802907512800EA7100 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBE7C7F2907512800EA7100 /* AuthViewController.swift */; };
+		3EBE7C832907563A00EA7100 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3EBE7C822907563A00EA7100 /* FirebaseAuth */; };
+		3EBE7C852907569700EA7100 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EBE7C842907569700EA7100 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E851D8B28FE367200530C0B /* VasquezAmberEtana-HW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VasquezAmberEtana-HW5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E851D8E28FE367200530C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3E851D9028FE367200530C0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3E851D9228FE367200530C0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E851D9528FE367200530C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E851D9828FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VasquezAmberEtana_HW5.xcdatamodel; sourceTree = "<group>"; };
+		3E851D9A28FE367300530C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E851D9D28FE367300530C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E851D9F28FE367300530C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E851DA528FE371D00530C0B /* Pizza.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		3E851DA728FE373F00530C0B /* PizzaError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaError.swift; sourceTree = "<group>"; };
+		3E851DA928FE375B00530C0B /* PizzaOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOptions.swift; sourceTree = "<group>"; };
+		3E851DAB28FE377F00530C0B /* PizzaValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaValidation.swift; sourceTree = "<group>"; };
+		3E851DAF28FE3A3800530C0B /* PizzaOrderScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaOrderScreen.swift; sourceTree = "<group>"; };
+		3EBE7C6E29073F0500EA7100 /* HW6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HW6.xcdatamodel; sourceTree = "<group>"; };
+		3EBE7C7129073F3C00EA7100 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		3EBE7C7B2907476700EA7100 /* PizzaModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PizzaModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3EBE7C7C2907476700EA7100 /* PizzaModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PizzaModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3EBE7C7F2907512800EA7100 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		3EBE7C842907569700EA7100 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E851D8828FE367200530C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE7C832907563A00EA7100 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E851D8228FE367200530C0B = {
+			isa = PBXGroup;
+			children = (
+				3E851D8D28FE367200530C0B /* VasquezAmberEtana-HW5 */,
+				3E851D8C28FE367200530C0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E851D8C28FE367200530C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E851D8B28FE367200530C0B /* VasquezAmberEtana-HW5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E851D8D28FE367200530C0B /* VasquezAmberEtana-HW5 */ = {
+			isa = PBXGroup;
+			children = (
+				3EBE7C7029073F1700EA7100 /* CoreData */,
+				3E851D8E28FE367200530C0B /* AppDelegate.swift */,
+				3E851D9028FE367200530C0B /* SceneDelegate.swift */,
+				3E851D9228FE367200530C0B /* ViewController.swift */,
+				3EBE7C842907569700EA7100 /* GoogleService-Info.plist */,
+				3E851DAF28FE3A3800530C0B /* PizzaOrderScreen.swift */,
+				3E851DAB28FE377F00530C0B /* PizzaValidation.swift */,
+				3E851DA928FE375B00530C0B /* PizzaOptions.swift */,
+				3E851DA728FE373F00530C0B /* PizzaError.swift */,
+				3E851DA528FE371D00530C0B /* Pizza.swift */,
+				3E851D9428FE367200530C0B /* Main.storyboard */,
+				3EBE7C6D29073F0500EA7100 /* HW6.xcdatamodeld */,
+				3E851D9A28FE367300530C0B /* Assets.xcassets */,
+				3E851D9C28FE367300530C0B /* LaunchScreen.storyboard */,
+				3E851D9F28FE367300530C0B /* Info.plist */,
+				3E851D9728FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodeld */,
+				3EBE7C7F2907512800EA7100 /* AuthViewController.swift */,
+			);
+			path = "VasquezAmberEtana-HW5";
+			sourceTree = "<group>";
+		};
+		3EBE7C7029073F1700EA7100 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3EBE7C7B2907476700EA7100 /* PizzaModel+CoreDataClass.swift */,
+				3EBE7C7C2907476700EA7100 /* PizzaModel+CoreDataProperties.swift */,
+				3EBE7C7129073F3C00EA7100 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E851D8A28FE367200530C0B /* VasquezAmberEtana-HW5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E851DA228FE367300530C0B /* Build configuration list for PBXNativeTarget "VasquezAmberEtana-HW5" */;
+			buildPhases = (
+				3E851D8728FE367200530C0B /* Sources */,
+				3E851D8828FE367200530C0B /* Frameworks */,
+				3E851D8928FE367200530C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VasquezAmberEtana-HW5";
+			packageProductDependencies = (
+				3EBE7C822907563A00EA7100 /* FirebaseAuth */,
+			);
+			productName = "VasquezAmberEtana-HW5";
+			productReference = 3E851D8B28FE367200530C0B /* VasquezAmberEtana-HW5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E851D8328FE367200530C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					3E851D8A28FE367200530C0B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 3E851D8628FE367200530C0B /* Build configuration list for PBXProject "VasquezAmberEtana-HW5" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E851D8228FE367200530C0B;
+			packageReferences = (
+				3EBE7C812907563A00EA7100 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3E851D8C28FE367200530C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E851D8A28FE367200530C0B /* VasquezAmberEtana-HW5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E851D8928FE367200530C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E851D9E28FE367300530C0B /* LaunchScreen.storyboard in Resources */,
+				3EBE7C852907569700EA7100 /* GoogleService-Info.plist in Resources */,
+				3E851D9B28FE367300530C0B /* Assets.xcassets in Resources */,
+				3E851D9628FE367200530C0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E851D8728FE367200530C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE7C7D2907476700EA7100 /* PizzaModel+CoreDataClass.swift in Sources */,
+				3E851D9928FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodeld in Sources */,
+				3E851DB028FE3A3800530C0B /* PizzaOrderScreen.swift in Sources */,
+				3EBE7C7E2907476700EA7100 /* PizzaModel+CoreDataProperties.swift in Sources */,
+				3E851DAC28FE377F00530C0B /* PizzaValidation.swift in Sources */,
+				3E851D9328FE367200530C0B /* ViewController.swift in Sources */,
+				3E851D8F28FE367200530C0B /* AppDelegate.swift in Sources */,
+				3E851DA828FE373F00530C0B /* PizzaError.swift in Sources */,
+				3EBE7C7229073F3C00EA7100 /* CoreDataStack.swift in Sources */,
+				3E851DAA28FE375B00530C0B /* PizzaOptions.swift in Sources */,
+				3EBE7C802907512800EA7100 /* AuthViewController.swift in Sources */,
+				3E851DA628FE371D00530C0B /* Pizza.swift in Sources */,
+				3E851D9128FE367200530C0B /* SceneDelegate.swift in Sources */,
+				3EBE7C6F29073F0500EA7100 /* HW6.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E851D9428FE367200530C0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E851D9528FE367200530C0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E851D9C28FE367300530C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E851D9D28FE367300530C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E851DA028FE367300530C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E851DA128FE367300530C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E851DA328FE367300530C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVNZ9DH6DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VasquezAmberEtana-HW5/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kav835.VasquezAmberEtana-HW5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E851DA428FE367300530C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZVNZ9DH6DL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "VasquezAmberEtana-HW5/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "kav835.VasquezAmberEtana-HW5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E851D8628FE367200530C0B /* Build configuration list for PBXProject "VasquezAmberEtana-HW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E851DA028FE367300530C0B /* Debug */,
+				3E851DA128FE367300530C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E851DA228FE367300530C0B /* Build configuration list for PBXNativeTarget "VasquezAmberEtana-HW5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E851DA328FE367300530C0B /* Debug */,
+				3E851DA428FE367300530C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3EBE7C812907563A00EA7100 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3EBE7C822907563A00EA7100 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3EBE7C812907563A00EA7100 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		3E851D9728FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E851D9828FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodel */,
+			);
+			currentVersion = 3E851D9828FE367200530C0B /* VasquezAmberEtana_HW5.xcdatamodel */;
+			path = VasquezAmberEtana_HW5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		3EBE7C6D29073F0500EA7100 /* HW6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3EBE7C6E29073F0500EA7100 /* HW6.xcdatamodel */,
+			);
+			currentVersion = 3EBE7C6E29073F0500EA7100 /* HW6.xcdatamodel */;
+			path = HW6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E851D8328FE367200530C0B /* Project object */;
+}
